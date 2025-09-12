@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build",
+    "bash": "wp-env run cli bash",
+    "tailf": "wp-env run cli tail -f wp-content/debug.log",
+    "activate-theme": "cross-env-shell THEME_NAME=$npm_config_theme npx wp-env run cli wp theme activate $THEME_NAME",
+    "delete-themes": "npx wp-env run cli wp theme delete --all"
+  },
+  "devDependencies": {
+    "@wordpress/env": "^10.30.0",
+    "@wordpress/scripts": "^30.23.0",
+    "sass": "^1.92.1"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.8"
+  }
+}

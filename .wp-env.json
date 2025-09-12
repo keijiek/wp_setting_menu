@@ -1,0 +1,16 @@
+{
+  "core": null,
+  "phpVersion": null,
+  "themes": [
+    "./env_theme_base"
+  ],
+  "plugins": [],
+  "port": 11000,
+  "testsPort": 11001,
+  "config": {
+    "WP_DEBUG": true,
+    "WP_DEBUG_LOG": true,
+    "WP_DEBUG_DISPLAY": true,
+    "WP_TIMEZONE_STRING": "Asia/Tokyo"
+  }
+}
