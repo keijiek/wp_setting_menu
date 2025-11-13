@@ -1,16 +1,21 @@
 {
   "core": null,
   "phpVersion": null,
-  "themes": [
-    "./env_theme_base"
-  ],
   "plugins": [],
-  "port": 11000,
-  "testsPort": 11001,
+  "themes": [
+    "./my_theme"
+  ],
+  "port": 8888,
+  "testsPort": 8889,
   "config": {
     "WP_DEBUG": true,
     "WP_DEBUG_LOG": true,
     "WP_DEBUG_DISPLAY": true,
     "WP_TIMEZONE_STRING": "Asia/Tokyo"
-  }
+  },
+  "mappings": {},
+  "mysqlPort": null,
+  "phpmyadminPort": 8900,
+  "multisite": false,
+  "lifecycleScripts": {}
 }

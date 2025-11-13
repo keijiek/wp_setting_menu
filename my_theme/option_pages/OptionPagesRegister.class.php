@@ -17,7 +17,7 @@ class OptionPagesRegister
    */
   private $parentPage = null;
 
-  private array $subPages = [];
+  private array $subPages;
 
 
   public function __construct()
